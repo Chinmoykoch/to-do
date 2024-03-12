@@ -1,0 +1,34 @@
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(26, 149, 177);
+    padding: 2rem 0;
+    .login-page{
+        width: 50%;
+        padding: 2rem;
+        border-radius: 10px;
+        height: 50vh;
+        justify-content: center;
+        align-items: center;
+        background-color:rgb(255, 255, 255);
+        .heading{
+            font-size: 1.5rem;
+            text-align: center;
+        }
+
+        .login-form{
+            input{
+                text-align: center;
+                background-color: #ECF0F1;
+                border: 8px solid transparent;
+                border-radius: 8px;
+                font-size: 1rem;
+                font-weight: 200;
+                padding: 10px 0;
+                width: 80%;
+                transition: border .5s;
+            }
+        }
+    }
+}
